@@ -7,4 +7,9 @@ private:
     int FRONT, REAR;
     int queue_array[max];
 public:
+    Queues() 
+    {
+        FRONT = -1;
+        REAR = -1;
+    }
 };
