@@ -33,5 +33,13 @@ public:
             FRONT = 0;
             REAR = 0;
         }
+        else 
+        {
+            // jika rear berada di akhir array, maka kembali ke awal array
+            if (REAR == max - 1) 
+                REAR = 0;
+            else 
+                REAR = REAR + 1;
+        }
     }
 };
